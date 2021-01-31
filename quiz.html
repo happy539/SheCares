@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title> Check Your Stress Levels</title>    
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+  </head> 
+  <div class="quiz"> 
+<style> 
+  body { 
+    background-image: url("image/background1.png")
+  } 
+</style>
+    <script type="text/javascript" src="script.js" defer></script>
+    <div class="navBar">
+     <h1 style ="color:#F08080;">
+        Check Your Stress Levels
+      </h1>
+    <body>
+    <a href="index.html" >Home</a>
+    <a href="quiz.html"> Check Your Stress Levels</a>
+    <a href="activities.html"> Activities</a> 
+    <a href="techyJokes.html"> Techy Jokes </a> 
+    <a href="game.html"> Game </a> 
+    <br>
+    <br>
+    <div class="normalButtons">
+      <button type="button" id="start" style="width:100%">Start</button>
+    </div> 
+    </div>
+    <br> 
+    <div>
+      <img src="image/women.jpg" alt="Women in Tech" width="100%" height="642.5px">
+    </div>
+  <h3> 1 = Strongly Disagree and 5 = Strongly Agree </h3> 
+<table>
+<div class="quizButtons">
+<tr><h2 class="questions"> I Spend a lot of Time on Social Media  </h2></tr>
+<tr> <img src="image/glasses.png" alt="Glasses" class="center"></tr>
+<tr>
+  <td><input type="radio" id="q1a1" name="q1">
+  <label for="q1a1">1</label></td>
+  <td><input type="radio" id="q1a2" name="q1">
+  <label for="q1a2">2</label></td>
+  <td><input type="radio" id="q1a3" name="q1">
+  <label for="q1a3">3</label></td>
+  <td><input type="radio" id="q1a4" name="q1">
+  <label for="q1a4">4</label></td>
+  <td><input type="radio" id="q1a5" name="q1">
+  <label for="q1a5">5</label></td>
+</tr>
+</table>
+
+<table>
+<br>
+  <tr><h2 class="questions">I Constantly Feel Like I am not Doing Enough</h2></tr>
+<tr> <img src="image/boss.png"class="center"style ="height:600px;"></tr>
+<tr>
+  <td><input type="radio" id="q2a1" name="q2">
+  <label for="q2a1">1</label></td>
+  <td><input type="radio" id="q2a2" name="q2">
+  <label for="q2a2">2</label></td>
+  <td><input type="radio" id="q2a3" name="q2">
+  <label for="q2a3">3</label></td>
+  <td><input type="radio" id="q2a4" name="q2">
+  <label for="q2a4">4</label></td>
+  <td><input type="radio" id="q2a5" name="q2">
+  <label for="q2a5">5</label></td>
+</tr>
+</table>
+
+<table>
+<br>
+  <tr><h2 class="questions"> I Constantly Feel Like I am Letting Someone Down  </h2></tr>
+  <tr> <img src="image/peac.png"class="center"></tr>
+
+<tr>
+  <td><input type="radio" id="q3a1" name="q3">
+  <label for="q3a1">1</label></td>
+  <td><input type="radio" id="q3a2" name="q3">
+  <label for="q3a2">2</label></td>
+  <td><input type="radio" id="q3a3" name="q3">
+  <label for="q3a3">3</label></td>
+  <td><input type="radio" id="q3a4" name="q3">
+  <label for="q3a4">4</label></td>
+  <td><input type="radio" id="q3a5" name="q3">
+  <label for="q3a5">5</label></td>
+</tr>
+</table>
+
+<table>
+<br>
+  <tr><h2 class="questions"> I am Always Thinking About the Work I Need to do</h2></tr>
+<tr> <img src="image/ocean.png"class="center"></tr>
+
+<tr>
+  <td><input type="radio" id="q4a1" name="q4">
+  <label for="q4a1">1</label></td>
+  <td><input type="radio" id="q4a2" name="q4">
+  <label for="q4a2">2</label></td>
+  <td><input type="radio" id="q4a3" name="q4">
+  <label for="q4a3">3</label></td>
+  <td><input type="radio" id="q4a4" name="q4">
+  <label for="q4a4">4</label></td>
+  <td><input type="radio" id="q4a5" name="q4">
+  <label for="q4a5">5</label></td>  
+</tr>
+</table>
+
+<table>
+<br>
+  <tr><h2 class="questions"> I Have Trouble Falling Asleep Because I Can't Stop Thinking About my Work </h2></tr>
+<div class="answer-choice">
+<tr> <img src="image/moon.png"class="center"></tr>
+
+  <tr>
+    <td><input type="radio" id="q5a1" name="q5">
+    <label for="q5a1">1</label></td>
+    <td><input type="radio" id="q5a2" name="q5">
+    <label for="q5a2">2</label></td>
+    <td><input type="radio" id="q5a3" name="q5">
+    <label for="q5a3">3</label></td>
+    <td><input type="radio" id="q5a4" name="q5">
+    <label for="q5a4">4</label></td>
+    <td><input type="radio" id="q5a5" name="q5">
+    <label for="q5a5">5</label></td>
+  </tr>
+</div>
+</table>
+<table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <tr>
+  </div> 
+    <div class="result">
+      <h2 id="result" class="questions">Result: </h2>
+    </div>
+  </tr>
+  <tr>
+  <div class="normalButtons">
+  <button type="button" id="submit" style="width:100%"> Submit </button>
+  <br> 
+  <button type="button" id="restart" style="width:100%">Restart</button>
+  </tr>
+  </div> 
+</table>
+</body>
+</div>
+</html>

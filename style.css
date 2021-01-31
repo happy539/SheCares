@@ -1,0 +1,108 @@
+a:link, a:visited {
+  background-color:darksalmon;
+  color: white;
+  border: 5px solid white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px; 
+}
+
+a:hover, a:active {
+  background-color: lavenderblush;
+  color:Black;
+  border: 5px solid lightcoral;
+}
+
+p{
+  font-size: 20px;
+}
+
+body{
+  background-color: lavenderblush;
+}
+
+.navBar{
+  text-align:center;
+}
+
+input[type="radio"]{
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+label{
+  display:inline-block;
+  background-color: #ff9494;
+  border: 5px solid white;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+}
+
+input[type="radio"]:checked + label{
+  background-color: white;
+  border: 5px solid #ff9494;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color: #ff9494;
+}
+
+label:hover{
+  background-color: white;
+  border: 5px solid #ff9494;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color: #ff9494;
+}
+
+button{
+  background-color:#ff9494;
+  border: 5px solid white;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color:white;
+  margin-right: 15px;
+}
+
+button:hover{
+  background-color:white;
+  border: 5px solid #ff9494;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  color:#ff9494;
+}
+td {
+  text-align:center;
+  vertical-align: center;
+  width:2000px;
+}
+
+.questions {
+  font-family: 'Permanent Marker';
+  color: #fa7878;
+  border: 10px solid white;
+  background: #ffd9b8;
+  padding: 10px;
+}
+.activities h2{ 
+  font-family: 'Permanent Marker';
+  color: #fa7878;
+  border: 10px solid white;
+  background: #ffd9b8;
+  padding: 10px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 500px;
+}
